@@ -1,0 +1,15 @@
+{
+	"name": "Clear Complete Downloads",
+	"version": "1.0.0",
+	"description": "Chrome extension that will remove a download from the download list once it is complete",
+	"homepage_url": "https://github.com/saobiz/clear-complete-downloads",
+    "manifest_version": 2,
+	"permissions": [
+        "downloads"
+	],
+	"background": {
+		"scripts": [
+			"background.js"
+		]
+	}
+}
